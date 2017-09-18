@@ -1,13 +1,13 @@
 package com.panatula.cargi;
 
-/**
- * Hello world!
- *
- */
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class CargiApp 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Here we start the revolution of Automobile service automation" );
+    	SpringApplication.run(CargiApp.class, args);
     }
 }

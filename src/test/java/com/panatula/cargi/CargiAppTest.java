@@ -1,15 +1,20 @@
 package com.panatula.cargi;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.panatula.cargi.controller.HomeController;
 
 
 public class CargiAppTest 
 {
 	@Test
-    public void testApp()
+	public void starterTest()
     {
-        assertTrue( true );
+		HomeController controller = new HomeController();
+		String greeting = controller.home().toString();
+		assertEquals(greeting, "Cargi is just starting , ways to go");
+       
     }
 }

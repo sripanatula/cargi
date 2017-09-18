@@ -5,7 +5,7 @@
 	<groupId>com.panatula</groupId>
 	<artifactId>cargi</artifactId>
 	<version>0.0.1</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>cargi</name>
 	<url>http://maven.apache.org</url>
