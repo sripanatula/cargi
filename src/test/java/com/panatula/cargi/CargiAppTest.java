@@ -14,7 +14,7 @@ public class CargiAppTest
     {
 		HomeController controller = new HomeController();
 		String greeting = controller.home().toString();
-		assertEquals(greeting, "Cargi is just starting , ways to go");
+		assertEquals(greeting, "Home says: Cargi is just starting , ways to go");
        
     }
 }
